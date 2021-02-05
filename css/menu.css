@@ -1,0 +1,120 @@
+.menu {
+    width: 230px;
+    height: auto;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 8px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.menu-item {
+    padding-top: 2px;
+}
+
+.menu-text {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 18px;
+    opacity: 0.8;
+}
+
+.menu-items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.menu-item>i {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 18px;
+    opacity: 0.8;
+}
+
+.menu-item {
+    background-color: #fff;
+    transition: 0.1s all;
+}
+
+.menu-item:hover {
+    background-color: #E0E0E0;
+    transition: 0.1s all;
+}
+
+.ext-menu {
+    height: 194px;
+    width: 154px;
+    position: absolute;
+    top: 64px;
+    margin-top: 56px;
+    right: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.ext-indicator {
+    position: relative;
+    height: 8px;
+    width: 8px;
+    margin-left: 4px;
+    margin-top: 10px;
+    background-color: #444;
+    border-radius: 100%;
+    opacity: 0.5;
+    float: left;
+    transition: all 0.2s;
+    cursor: default;
+}
+
+.ext-indicator:hover {
+    opacity: 0.7;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.ext-indicators {
+    list-style-type: none;
+    position: absolute;
+    bottom: -8px;
+    padding: 0;
+    width: auto;
+}
+
+.ext-item {
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    height: 48px;
+    width: 48px;
+    list-style-type: none;
+}
+
+.ext-item-icon {
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    margin: 6px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ext-page {
+    margin-top: 6px;
+    position: relative;
+    top: 0;
+    padding: 0;
+    padding-left: 6px;
+    padding-top: 0;
+    display: inline-block;
+}
