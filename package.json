@@ -1,11 +1,11 @@
 {
-  "name": "Trickss",
+  "name": "Tricks",
   "version": "1.0.1",
   "description": "A web browser from ItsQuentin",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . --all --overwrite --asar"
+    "build": "electron-packager . --all --overwrite"
   },
   "repository": {
     "type": "git",
