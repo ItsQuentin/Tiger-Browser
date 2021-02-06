@@ -1,0 +1,114 @@
+.tabbar {
+    font-family: Roboto;
+    height: 100%;
+    width: calc(100% - 84px);
+    position: relative;
+    z-index: 9999;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.titlebar {
+    height: 32px;
+    width: 100%;
+    z-index: 999;
+}
+
+.draggable {
+    -webkit-app-region: drag;
+    height: 29px;
+    width: 100%;
+    position: absolute;
+    top: 3px;
+}
+
+.border5 {
+    height: 1px;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.favicon {
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+.tabTitle {
+    float: left;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 9px;
+    margin-left: 26px;
+    color: #444;
+    max-width: calc(100% - 54px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tab {
+    width: 225px;
+    height: 31px;
+    background-color: #fff;
+    position: absolute;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-app-region: no-drag;
+    -webkit-transition: background-color 0.2s;
+}
+
+.tab:hover {
+    background-color: #fff;
+}
+
+.closeBtn {
+    float: right;
+    height: 16px;
+    width: 16px;
+    opacity: 0.6;
+    margin-top: 6px;
+    margin-right: 12px;
+    font-family: Roboto;
+    color: #444;
+}
+
+.closeBtn:hover {
+    opacity: 1;
+}
+
+.addTabBtn {
+    opacity: 0.6;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 2px;
+    top: 0;
+    height: 28px;
+    width: 28px;
+    -webkit-app-region: no-drag;
+}
+
+.addTabBtn:hover {
+    opacity: 1;
+}
+
+.tabWindow {
+    font-family: Roboto;
+    color: #444;
+}
+
+.light {
+    color: #444;
+}
+
+.dark {
+    color: #fff;
+}
